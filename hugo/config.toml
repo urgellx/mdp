@@ -1,0 +1,64 @@
+baseURL = ""
+theme = "nightfall"
+copyright = "CC BY NC SA (2023) Café des Potes"
+
+defaultContentLanguage = "fr-fr"
+languageCode = "fr-fr"
+staticDir="static"
+
+summaryLength = 70
+buildFuture = true
+
+timeout = 10000
+enableEmoji = true
+paginate = 13
+rssLimit = 100
+
+
+[menu]
+  [[menu.header]]
+    name = "catégories"
+    weight = 1
+    url = "/categories"
+  [[menu.header]]
+    name = "images"
+    weight = 1
+    url = "/images"
+  [[menu.header]]
+  name = "articles"
+  weight = 1
+  url = "/post"
+  [[menu.header]]
+  name = "rss"
+  weight = 1
+  url = "/index.xml"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xHTML = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[params]
+user = "normal"
+hostname = "café-dépot.fr"
+title = "Le site des potes"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+[taxonomies]
+  categories = "categories"

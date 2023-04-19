@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accueil on </title>
+    <link>/</link>
+    <description>Recent content in Accueil on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <copyright>CC BY NC SA (2023) Café des Potes</copyright>
+    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ma première liste d&#39;images</title>
+      <link>/images/exemple/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/images/exemple/</guid>
+      <description>Bonjour &amp;ldquo;Boursouflé&amp;rdquo;, Urgelle, Art Libre, 2023 </description>
+    </item>
+    
+    <item>
+      <title>Mon premier article</title>
+      <link>/post/1/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/1/</guid>
+      <description>Voici une présentation de Hugo Feuille de triche pour markdown Les listes Gras et italique Pour connaître le reste, suivez ce lien Les liens Titres (du plus gros au plus petit) Titre 2 Titre 3 Titre 4 Voici une présentation de Hugo Pour créer un site facilement, il existe plusieurs options, on peut utiliser:
+Des CMS (Wordpress, Spip, etc.) Des générateurs de sites statiques (Hugo : utilisé pour ce site) Le faire soi-même Pour ce site, j&amp;rsquo;ai choisi d&amp;rsquo;utiliser un générateur de site statique nommé Hugo</description>
+    </item>
+    
+  </channel>
+</rss>

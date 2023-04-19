@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <title>
+        Accueil | {{ .Site.Params.author }}
+    </title>
+
+    {{ partial "head.html" . }}
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        {{ partial "header.html" . }}
+
+        <div class="content vertical">
+            <main class="main">
+                <div class="indexWrapper">
+                    <div>
+                        <h1 class="indexHeader">{{ .Site.Params.title }}</h1>
+                    </div>
+                </div>
+		+--------------------+<br>
+		|OOOOOOOOOOOOOOOOOOOO|<br>
+		|OOOOOOOOo::dOOOOOOOO|<br>
+		|OOOOko;.....'cdOOOOO|<br>
+		|OOo;...........'cxOO|<br>
+		|Ox................kO|<br>
+		|Ox................xO|<br>
+		|OO'...............xO|<br>
+		|OO................kO|<br>
+		|OOc::::::::::::::ckO|<br>
+		|OOOOOOOOOOOOOOOOOOOO|<br>
+		+--------------------+<br>
+            </main>
+        </div>
+
+
+
+
+        {{ partial "footer.html" . }}
+    </div>
+
+</body>
+
+</html>

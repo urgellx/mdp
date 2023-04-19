@@ -1,0 +1,18 @@
+{{ define "title"}}
+{{ .Title }} 
+{{ end }}
+
+
+{{ define "main" }}
+<div class="postWrapper">
+    <h1>{{ .Title }}</h1>
+<span>
+	Écrit par {{ range .Param "author" }}
+		{{ . }}
+	{{ end }}
+</span>
+    <div>
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}
