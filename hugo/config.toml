@@ -6,7 +6,7 @@ defaultContentLanguage = "fr-fr"
 languageCode = "fr-fr"
 staticDir="static"
 
-summaryLength = 70
+summaryLength = 200
 buildFuture = true
 
 timeout = 10000
@@ -24,10 +24,6 @@ rssLimit = 100
     name = "images"
     weight = 1
     url = "/images"
-  [[menu.header]]
-  name = "articles"
-  weight = 1
-  url = "/post"
   [[menu.header]]
   name = "rss"
   weight = 1
